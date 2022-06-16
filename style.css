@@ -1,7 +1,49 @@
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center;
+}
 .attribution a { color: hsl(228, 45%, 44%); }
 
-body{
+html{
+    
+    overflow: hidden;
+    box-sizing: border-box;
+    max-height: fit-content;
     background-color: hsl(212, 45%, 89%);
+    max-height: 100%;
+}
+body{
+    
+    max-height: fit-content;
 }
 
+.QRCARD{
+    background-color: white;
+    width: 25%;
+    height: 70%;
+    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+
+}
+
+img{
+   
+    max-width: 100%;
+    object-fit: cover;
+    width: 85%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5%;
+
+}
+
+p{
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.greyText{
+    color: hsl(212, 45%, 89%);
+}
