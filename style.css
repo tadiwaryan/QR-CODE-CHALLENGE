@@ -4,16 +4,12 @@
 
 html{
     
-    overflow: hidden;
+    min-height: 100%;
     box-sizing: border-box;
-    max-height: fit-content;
     background-color: hsl(212, 45%, 89%);
-    max-height: 100%;
-}
-body{
     
-    max-height: fit-content;
 }
+
 
 .QRCARD{
     background-color: white;
