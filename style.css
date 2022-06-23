@@ -24,8 +24,8 @@ body{
 .QRCARD{
    
     background-color: white;
-    max-height: 40%;
-    max-width: 20%;
+    height: 40%;
+    width: 20%;
     border-radius: 5%;
     margin-left: auto;
     margin-right: auto;
@@ -52,6 +52,7 @@ img{
 }
 
 p{
+    
     font-family: Outfit, serif;
     margin-left: auto;
     margin-right: auto;
@@ -60,6 +61,19 @@ p{
 }
 
 .greyText{
-    color: hsl(212, 45%, 89%);
+    
+    color: hsl(220, 15%, 55%);
     font-weight: 400;
+
+}
+
+@media only screen and (max-device-width: 550px ) {
+
+    .QRCARD{
+
+        width: 15em;
+        height: 25em;
+
+    }
+
 }
